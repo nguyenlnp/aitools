@@ -7,9 +7,9 @@ const AI_TOOLS = [
     rating: 4.8,
     trending: true,
     url: "https://github.com/anthropics/claude-code",
-    tagline: "Anthropic's agentic coding CLI that lives in your terminal",
+    tagline: "Anthropic's agentic coding CLI — 4% of all GitHub commits and growing",
     description:
-      "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. Powered by Claude Opus 4.6, it handles routine tasks, explains complex code, manages git workflows, and can operate as a multi-agent development platform.",
+      "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. Powered by Claude Opus 4.6, it now accounts for ~4% of all public GitHub commits (~135K/day) and is projected to reach 20%+ by end of 2026. Named the most popular coding agent of early 2026, it accelerates development 2-3x.",
     whyGood: [
       "Deep codebase understanding with whole-project context awareness",
       "Multi-agent collaboration with Agent Teams for parallel workstreams",
@@ -37,9 +37,9 @@ const AI_TOOLS = [
     rating: 4.7,
     trending: true,
     url: "https://antigravityai.org/",
-    tagline: "Google's agent-first IDE powered by Gemini 3",
+    tagline: "Google's $2.4B agent-first IDE powered by Gemini 3 — with Sergey Brin's return",
     description:
-      "Google Antigravity is an AI-powered IDE announced Nov 2025 alongside Gemini 3. Born from Google's $2.4B acquisition of the Windsurf team, it introduces an 'agent-first' paradigm where AI agents function as independent actors capable of navigating an entire project's lifecycle. Features Editor View for hands-on coding and Manager View (Mission Control) for orchestrating multiple agents.",
+      "Google Antigravity is an AI-powered IDE announced Nov 2025 alongside Gemini 3. Born from Google's $2.4B acquisition of the Windsurf team — with Sergey Brin personally driving development in 'Founder Mode' — it introduces an 'agent-first' paradigm where AI agents function as independent actors across the full project lifecycle. Features Editor View for hands-on coding and Manager View (Mission Control) for orchestrating multiple agents asynchronously.",
     whyGood: [
       "Agent-first design — AI agents work as independent actors across the project",
       "Manager View (Mission Control) for spawning and observing multiple agents",
@@ -155,9 +155,9 @@ const AI_TOOLS = [
     rating: 4.4,
     trending: true,
     url: "https://github.com/cline/cline",
-    tagline: "Open-source autonomous coding agent — BYO API key, full control",
+    tagline: "Open-source autonomous coding agent — 4M+ devs, BYO API key, full control",
     description:
-      "Cline is a free, open-source AI coding assistant that runs in VS Code. It uses a bring-your-own API key model, giving developers full control over costs and model selection. Best for open-source purists who want a powerful agentic coding experience without vendor lock-in.",
+      "Cline is a free, open-source AI coding assistant (Apache 2.0) that runs in VS Code with 5M+ installs and 4M+ developers. Uses a bring-your-own API key model supporting OpenAI, Anthropic, Google, AWS Bedrock, Azure, and local models via Ollama. Features dual Plan/Act modes, browser automation, and MCP integration. Spawned notable forks: Roo Code and Kilo Code ($8M seed round).",
     whyGood: [
       "Completely free and open source",
       "Bring-your-own API key for full cost and model control",
