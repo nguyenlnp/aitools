@@ -111,12 +111,12 @@ function openModal(tool) {
 
     <a class="modal-link" href="${tool.url}" target="_blank" rel="noopener">Visit Project &rarr;</a>
   `;
-  modalOverlay.hidden = false;
+  modalOverlay.classList.add("active");
   document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
-  modalOverlay.hidden = true;
+  modalOverlay.classList.remove("active");
   document.body.style.overflow = "";
 }
 
