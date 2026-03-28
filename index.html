@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tools Hub - Discover the Best AI Developer Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>AI Tools Hub</h1>
+      <p class="tagline">Curated ratings & news on the best AI developer tools, frameworks, and skills</p>
+    </div>
+  </header>
+
+  <nav class="toolbar">
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search tools..." autocomplete="off">
+    </div>
+    <div class="filters">
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="coding-assistant">Coding Assistants</option>
+        <option value="cli-tool">CLI Tools</option>
+        <option value="agent-framework">Agent Frameworks</option>
+        <option value="ai-platform">AI Platforms</option>
+        <option value="github-project">GitHub Projects</option>
+        <option value="skill">Skills & Learning</option>
+      </select>
+      <select id="sort-by">
+        <option value="rating">Sort by Rating</option>
+        <option value="name">Sort by Name</option>
+        <option value="trending">Sort by Trending</option>
+        <option value="newest">Sort by Newest</option>
+      </select>
+    </div>
+  </nav>
+
+  <main>
+    <section class="stats-bar">
+      <div class="stat"><span id="total-tools">0</span> Tools</div>
+      <div class="stat"><span id="total-categories">0</span> Categories</div>
+      <div class="stat">Updated: <span id="last-updated">Feb 2026</span></div>
+    </section>
+
+    <section id="tools-grid" class="tools-grid">
+      <!-- Cards rendered by JS -->
+    </section>
+
+    <section id="no-results" class="no-results" hidden>
+      <p>No tools match your search. Try a different query or category.</p>
+    </section>
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="modal">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>AI Tools Hub &mdash; Built to help developers discover the best AI tools and frameworks.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
